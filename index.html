@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing effect</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-family: 'Courier New';
+            margin: 100px 20px;
+            overflow: hidden;
+            color: rgb(247, 6, 166);
+            width: 10ch;
+            height: 2.3ch;
+            word-spacing: -20px;
+            animation: typing 3s steps(10) infinite alternate-reverse;
+        }
+
+        @keyframes typing {
+            from {width: 0ch;}
+            to {width: 10ch;}
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <span>D</span>
+        <span>e</span>
+        <span>v</span>
+        <span>e</span>
+        <span>l</span>
+        <span>o</span>
+        <span>p</span>
+        <span>e</span>
+        <span>r</span>
+    </h1>
+</body>
+</html>
